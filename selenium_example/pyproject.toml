@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "selenium-example"
+version = "0.1.0"
+description = ""
+authors = ["ritzier <ritzierwheat@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+selenium = "^4.25.0"
+webdriver-manager = "^4.0.2"
+argparse = "^1.4.0"
+
+
+[tool.poetry.scripts]
+run = "selenium_example:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
