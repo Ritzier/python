@@ -36,6 +36,9 @@ def parse_args():
     # Subparser for 'chat' command
     subparsers.add_parser("chat", help="Start a chat")
 
+    # Subparser for 'ls' command
+    subparsers.add_parser("ls", help="List files")
+
     args = parser.parse_args()
 
     match args.command:
