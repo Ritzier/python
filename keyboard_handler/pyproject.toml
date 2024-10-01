@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "keyboard-handler"
+version = "0.1.0"
+description = ""
+authors = ["ritzier <ritzierwheat@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+keyboard = "^0.13.5"
+
+[tool.poetry.scripts]
+run = "keyboard_handler:main"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
